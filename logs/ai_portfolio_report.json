@@ -1,0 +1,67 @@
+{
+  "report_id": 5,
+  "timestamp": "2026-09-01T14:05:06.238560",
+  "total_swept": 0.0,
+  "consolidated": {
+    "total_capital": 1000000.0,
+    "total_equity": 999903.62,
+    "total_pnl": -96.38,
+    "return_pct": -0.0001
+  },
+  "portfolios": {
+    "LONG_TERM_VALUE": {
+      "cash": 429151.62,
+      "equity": 499925.83,
+      "total_pnl": -65.59,
+      "trades": 0,
+      "win_rate": 0.5,
+      "profit_factor": 1.5,
+      "open_positions": {
+        "INFY.NS": {
+          "qty": 7,
+          "entry": 3351.42,
+          "ltp": 3343.82,
+          "unrealized_pnl": -52.5
+        },
+        "AXISBANK.NS": {
+          "qty": 6,
+          "entry": 4126.81,
+          "ltp": 4107.89,
+          "unrealized_pnl": -132.74
+        },
+        "RELIANCE.NS": {
+          "qty": 9,
+          "entry": 2514.18,
+          "ltp": 2525.55,
+          "unrealized_pnl": 111.17
+        }
+      }
+    },
+    "MEDALLION_SCALPER": {
+      "cash": 500000.0,
+      "equity": 500000.0,
+      "total_pnl": 0.0,
+      "trades": 0,
+      "win_rate": 0.5,
+      "profit_factor": 1.5,
+      "open_positions": {}
+    }
+  },
+  "live_ticks": {
+    "HDFCBANK.NS": 2305.23,
+    "ASIANPAINT.NS": 2873.77,
+    "KOTAKBANK.NS": 2822.34,
+    "INFY.NS": 3344.49,
+    "ITC.NS": 3180.57,
+    "SBIN.NS": 2903.74,
+    "AXISBANK.NS": 4102.4,
+    "BHARTIARTL.NS": 3063.32,
+    "SUNPHARMA.NS": 2050.99,
+    "ICICIBANK.NS": 4024.19
+  },
+  "alerts": [
+    "[14:05:06] \ud83e\uddf9 SWEEP EVENT: Total \u20b90 realized profits injected into Long-Term.",
+    "[14:05:06] \ud83e\uddec MEDALLION: 1-Second micro-scalp loop active. Analyzing OU Drift.",
+    "[14:05:06] \ud83c\udfdb\ufe0f QGLP ORACLE: Deploying swept capital into fundamental assets."
+  ]
+}
